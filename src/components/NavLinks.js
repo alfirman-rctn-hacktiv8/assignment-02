@@ -1,18 +1,29 @@
-const NavLinks = () => (
-  <nav>
-    <ul className="text-center space-y-2">
-      {links.map((link, index) => (
-        <li
-          className="uppercase font-semibold text-xl text-gray-200 hover:text-white cursor-pointer"
-          key={index}
-        >
-          <a href={"#" + link}>{link}</a>
-        </li>
-      ))}
-      <p></p>
-    </ul>
-  </nav>
-);
+import { useState } from "react";
+
+const NavLinks = () => {
+  const [activeNav, setActiveNav] = useState("about");
+  return (
+    <nav>
+      <ul className="text-center space-y-2">
+        {links.map((link, index) => (
+          <li
+            className={`${
+              activeNav === link
+                ? "text-white font-bold"
+                : "text-gray-200 font-semibold"
+            } uppercase text-xl hover:text-white cursor-pointer`}
+            key={index}
+          >
+            <a onClick={() => setActiveNav(link)} href={"#" + link}>
+              {link}
+            </a>
+          </li>
+        ))}
+        <p></p>
+      </ul>
+    </nav>
+  );
+};
 
 const links = [
   "about",

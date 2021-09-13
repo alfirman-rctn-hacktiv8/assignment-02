@@ -26,7 +26,7 @@ const Education = () => (
 
 const datas = [
   {
-    agency: "loremipsum institute of information technology",
+    agency: "Malikussaleh University",
     status: "bachelor",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",

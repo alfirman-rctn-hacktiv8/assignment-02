@@ -1,9 +1,7 @@
-const Awards = () => {
-  return (
-    <div id="awards" className="h-screen">
-      awards
-    </div>
-  );
-};
+const Awards = () => (
+  <section id="awards" className="h-screen">
+    awards
+  </section>
+);
 
 export default Awards;

@@ -1,7 +1,7 @@
 const Experience = () => {
   return (
     <div id="experience" className="h-screen flex flex-col justify-center">
-      <h1 className="uppercase text-4xl font-bold text-gray-800 mb-10">experience</h1>
+      <h1 className="uppercase text-6xl font-bold text-gray-800 mb-10">experience</h1>
       <ul className="space-y-6">
         {datas.map((data, index) => (
           <li key={index} className="flex">
@@ -9,10 +9,10 @@ const Experience = () => {
               <h2 className="uppercase text-xl font-bold text-gray-800">
                 {data.status}
               </h2>
-              <h3 className="text-lg uppercase font-bold text-gray-400 mt-1">
+              <h3 className="text-lg uppercase font-semibold text-gray-400 mt-1">
                 {data.agency}
               </h3>
-              <p className="font-semibold text-gray-400 mt-3">
+              <p className="text-gray-400 mt-3">
                 {data.description}
               </p>
             </div>

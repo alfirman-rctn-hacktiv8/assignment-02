@@ -3,7 +3,7 @@ import CheckIcon from "../components/CheckIcon";
 const Skills = () => {
   return (
     <div id="skills" className="h-screen flex flex-col justify-center">
-      <h1 className="uppercase text-4xl font-bold text-gray-800 mb-10">
+      <h1 className="uppercase text-6xl font-bold text-gray-800 mb-10">
         skills
       </h1>
       <h3 className="uppercase text-2xl font-bold text-gray-400 mb-5">

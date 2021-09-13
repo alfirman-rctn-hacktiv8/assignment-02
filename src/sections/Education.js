@@ -1,7 +1,7 @@
 const Education = () => {
   return (
     <div id="education" className="h-screen flex flex-col justify-center">
-      <h1 className="uppercase text-4xl font-bold text-gray-800 mb-10">
+      <h1 className="uppercase text-6xl font-bold text-gray-800 mb-10">
         education
       </h1>
       <ul className="space-y-6">

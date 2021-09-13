@@ -6,7 +6,7 @@ const NavLinks = () => (
           className="uppercase font-semibold text-xl text-gray-200 hover:text-white cursor-pointer"
           key={index}
         >
-          {link}
+          <a href={"#" + link}>{link}</a>
         </li>
       ))}
       <p></p>
@@ -19,7 +19,7 @@ const links = [
   "experience",
   "education",
   "skills",
-  "interest",
+  "interests",
   "awards",
 ];
 

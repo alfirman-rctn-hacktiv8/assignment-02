@@ -1,5 +1,9 @@
 const Experience = () => {
-  return <div className="h-screen">experience</div>;
+  return (
+    <div id="experience" className="h-screen">
+      experience
+    </div>
+  );
 };
 
 export default Experience;

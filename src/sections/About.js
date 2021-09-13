@@ -1,7 +1,7 @@
 import { Github, LinkedIn } from "../components/ButtonIcon";
 
 const About = () => (
-  <section className="h-screen flex flex-col justify-center space-y-8">
+  <section  id="about" className="h-screen flex flex-col justify-center space-y-8">
     <div className="space-y-2">
       <h1 className="text-6xl font-bold uppercase text-gray-800">
         Alfirman <span className="text-yellow-300">Ejha Pahlepi</span>

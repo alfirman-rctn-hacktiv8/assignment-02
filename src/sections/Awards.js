@@ -1,5 +1,9 @@
 const Awards = () => {
-  return <div className="h-screen">awards</div>;
+  return (
+    <div id="awards" className="h-screen">
+      awards
+    </div>
+  );
 };
 
 export default Awards;

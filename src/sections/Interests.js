@@ -1,5 +1,5 @@
 const Interests = () => {
-  return <div className="h-screen">interest</div>;
+  return <div id="interests" className="h-screen">interest</div>;
 };
 
 export default Interests;

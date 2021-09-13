@@ -9,10 +9,10 @@ const Experience = () => {
               <h2 className="uppercase text-2xl font-bold text-gray-800">
                 {data.status}
               </h2>
-              <h3 className="text-xl uppercase font-bold text-gray-500 mt-1">
+              <h3 className="text-xl uppercase font-bold text-gray-400 mt-1">
                 {data.agency}
               </h3>
-              <p className="font-semibold text-gray-500 mt-3">
+              <p className="font-semibold text-gray-400 mt-3">
                 {data.description}
               </p>
             </div>

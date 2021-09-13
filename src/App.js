@@ -1,4 +1,4 @@
-import { GithubIcon, LinkedinIcon } from "./components/ButtonIcon";
+import { Github, LinkedIn } from "./components/ButtonIcon";
 
 function App() {
   return (
@@ -48,8 +48,8 @@ function App() {
             </p>
           </div>
           <div className="space-x-3 flex">
-            <LinkedinIcon />
-            <GithubIcon />
+            <LinkedIn />
+            <Github />
           </div>
         </section>
         <section className="h-screen">2</section>

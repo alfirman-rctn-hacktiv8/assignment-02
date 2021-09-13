@@ -1,4 +1,4 @@
-export const LinkedinIcon = () => (
+export const LinkedIn= () => (
   <button className="h-14 w-14 rounded-full bg-gray-800 flex items-center justify-center">
     <svg
       aria-hidden="true"
@@ -18,7 +18,7 @@ export const LinkedinIcon = () => (
   </button>
 );
 
-export const GithubIcon = () => (
+export const Github = () => (
   <button className="h-14 w-14 rounded-full bg-gray-800 flex items-center justify-center">
     <svg
       aria-hidden="true"

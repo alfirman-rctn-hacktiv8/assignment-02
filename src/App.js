@@ -6,6 +6,7 @@ import Education from "./sections/Education";
 import Skills from "./sections/Skills";
 import Interests from "./sections/Interests";
 import Awards from "./sections/Awards";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,13 +16,14 @@ function App() {
           <Avatar />
           <NavLinks />
         </aside>
-        <main className="w-3/4 px-10">
+        <main className="w-3/4 px-10 relative">
           <About />
           <Experience />
           <Education />
           <Skills />
           <Interests />
           <Awards />
+          <Footer />
         </main>
       </div>
       <p className="text-red-400 font-semibold text-2xl block lg:hidden">

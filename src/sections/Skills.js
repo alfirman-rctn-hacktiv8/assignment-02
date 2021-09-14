@@ -1,9 +1,9 @@
 import CheckIcon from "../components/CheckIcon";
 
 const Skills = () => (
-  <section id="skills" className="h-screen flex flex-col justify-center">
-    <h1 className="uppercase text-5xl font-bold text-gray-800 mb-10">skills</h1>
-    <h3 className="uppercase text-2xl font-bold text-gray-400 mb-5">
+  <section id="skills" className="min-h-screen flex flex-col justify-center">
+    <h1 className="uppercase text-3xl sm:text-5xl font-bold text-gray-800 mb-10">skills</h1>
+    <h3 className="uppercase text-xl font-bold text-gray-400 mb-5">
       programming languages & tools
     </h3>
     <ul className="grid grid-cols-2 gap-2">

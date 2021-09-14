@@ -19,7 +19,6 @@ const NavLinks = () => {
             </a>
           </li>
         ))}
-        <p></p>
       </ul>
     </nav>
   );

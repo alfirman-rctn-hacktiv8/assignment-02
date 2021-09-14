@@ -1,9 +1,9 @@
 const Interests = () => (
   <section
     id="interests"
-    className="h-screen flex flex-col justify-center space-y-10"
+    className="min-h-screen flex flex-col justify-center space-y-10"
   >
-    <h1 className="uppercase text-5xl font-bold text-gray-800">interests</h1>
+    <h1 className="uppercase text-3xl sm:text-5xl font-bold text-gray-800">interests</h1>
     <p className="text-gray-400 whitespace-pre-line">{interest}</p>
   </section>
 );

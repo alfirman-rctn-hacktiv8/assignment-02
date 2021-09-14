@@ -1,12 +1,12 @@
 const Education = () => (
-  <section id="education" className="h-screen flex flex-col justify-center">
-    <h1 className="uppercase text-5xl font-bold text-gray-800 mb-10">
+  <section id="education" className="min-h-screen flex flex-col justify-center">
+    <h1 className="uppercase text-3xl sm:text-5xl font-bold text-gray-800 mb-10">
       education
     </h1>
     <ul className="space-y-6">
       {datas.map((data, index) => (
-        <li key={index} className="flex">
-          <div className="w-2/3">
+        <li key={index} className="sm;flex">
+          <div className="sm:w-2/3">
             <h2 className="uppercase text-xl font-bold text-gray-800">
               {data.agency}
             </h2>
@@ -15,7 +15,7 @@ const Education = () => (
             </h3>
             <p className="text-gray-400 mt-3">{data.description}</p>
           </div>
-          <p className="text-red-400 text-lg text-right w-1/3 font-semibold">
+          <p className="text-red-400 text-lg text-right sm:w-1/3 font-semibold">
             {data.time}
           </p>
         </li>

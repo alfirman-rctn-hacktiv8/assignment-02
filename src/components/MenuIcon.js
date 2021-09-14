@@ -42,7 +42,7 @@ const MenuIcon = ({ setOpenSideBar, openSideBar }) => (
       e.stopPropagation();
       setOpenSideBar(!openSideBar);
     }}
-    className="fixed left-4 top-4 z-20 lg:hidden"
+    className="fixed left-4 top-4 z-20 lg:hidden cursor-pointer"
   >
     <i
       className={`${

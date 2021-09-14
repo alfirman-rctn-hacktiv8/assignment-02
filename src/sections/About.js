@@ -12,7 +12,7 @@ const About = () => (
       <h4 className="text-xl font-semibold text-gray-400 text-center sm:text-left">
         +62 896 7375 7429{" "}
         <span className="text-yellow-300 ml-3">
-          alfirman.180170083@mhs.unimal.ac.id
+          alfirman.180170083 @mhs.unimal.ac.id
         </span>
       </h4>
     </div>
